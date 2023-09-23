@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ARTERIE</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,11 +18,11 @@
                 <div class="container">
                     <div class="header__logo logo" id="logo">
                         <a href="#">
-                            <img class="logo__image" height="100px" src="../data/images/logo.svg" alt="ARTERIE">
+                            <img class="logo__image" src="../data/images/logo.svg" alt="ARTERIE">
                         </a>
                     </div>
-                    <div class="navigation-bar__nav-links nav-links" id="nav-links">
-                        <ul class="nav-bar">
+                    <div class="navigation-bar__nav-links-container">
+                        <ul class="nav-bar nav-links" id="nav-links">
                             <li class="nav-links__nav-item">
                                 <a href="#">Каталог</a>
                             </li>
@@ -53,7 +57,7 @@
             </nav>
         </header>
         <main>
-            <div class="container" style="background-color: url(../data/images/main-background.jpg);">
+            <div class="container">
                 <div class="slogan-container__slogan" id="slogan">
                     ARTERIE. Путь к совершенству интерьера!
                 </div>
@@ -209,8 +213,8 @@
             </section>
         </main>
         <footer>
-            <div class="footer__nav-links nav-links" id="site-links">
-                <ul>
+            <div class="footer__nav-links-container">
+                <ul class="footer__nav-links nav-links" id="site-links">
                     <li><a href="#">О нас</a></li>
                     <li><a href="#">Каталог</a></li>
                     <li><a href="#">Доставка</a></li>
