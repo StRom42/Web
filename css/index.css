@@ -1,0 +1,173 @@
+body {
+    background-color: #ffe2bd;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #6e5039;
+    word-wrap: normal;
+    margin: 0;
+    width: 100vw;
+}
+
+#about_us h1 {
+    margin-top: 0 !important;
+    position: relative;
+}
+
+h1,
+h2,
+h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none !important;
+    color: #6e5039;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+[class*='container'] {
+    margin: 15px;
+}
+
+.header__navigation-bar {
+    top: 0;
+    position: absolute !important;
+    width: 100%;
+}
+
+.logo__image {
+    width: 100%;
+}
+
+.header__logo>a {
+    display: inline-block;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.header__navigation-bar .container {
+    display: flex;
+    flex-flow: row;
+}
+
+.navigation-bar__nav-links-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.navigation-bar__nav-links-container .nav-links {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.nav-links__nav-item {
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.header__contact-info {
+    margin-left: auto;
+}
+
+#slogan {
+    background-image: url("../data/images/main/main-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    float: left;
+    margin: 0 0 30px 0;
+}
+
+.slogan-text {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#slogan span {
+    right: 0%;
+    bottom: 0;
+    position: absolute;
+}
+
+aside {
+    float: right;
+    position: relative;
+}
+
+article {
+    margin: 15px;
+}
+
+.artists__row {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.thumbnail {
+    margin: 15px;
+}
+
+.thumbnail .text-part__title {
+    display: flex;
+    justify-content: center;
+}
+
+.thumbnail__photo {
+    display: flex;
+    justify-content: center;
+    aspect-ratio: 1/1;
+}
+
+.artists__row .thumbnail__photo img {
+    width: 20vw;
+}
+
+.reviews__item {
+    border: #6e5039 1px solid;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.footer__container-shadowed {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 0 !important;
+    padding: 15px;
+    color: #ffe2bd !important;
+    background-color: #6e5039;
+}
+
+.footer__container-shadowed a {
+    color: #ffe2bd;
+}
+
+.footer__nav-links-container {
+    margin-right: auto;
+}
