@@ -1,11 +1,11 @@
-body {
+html, body {
     background-color: #ffe2bd;
     font-family: 'Montserrat';
     font-size: 18px;
     color: #6e5039;
     word-wrap: normal;
-    margin: 0;
-    width: 100vw;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 #about_us h1 {
@@ -31,10 +31,11 @@ a:hover {
 }
 
 [class*='container'] {
-    margin: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-.header__navigation-bar {
+header {
     top: 0;
     position: absolute !important;
     width: 100%;
@@ -60,6 +61,7 @@ a:hover {
 .header__navigation-bar .container {
     display: flex;
     flex-flow: row;
+    margin-top: 0;
 }
 
 .navigation-bar__nav-links-container {
@@ -91,13 +93,23 @@ a:hover {
     margin-left: auto;
 }
 
+@media (max-width: 1190px)  {
+    .header__contact-info {
+        display: none;
+    }
+
+    .navigation-bar__nav-links-container {
+        margin-left: auto;
+    }
+}
+
 #slogan {
     background-image: url("../data/images/main/main-background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     float: left;
     margin: 0 0 30px 0;
 }
@@ -108,8 +120,8 @@ a:hover {
 }
 
 #slogan span {
-    right: 0%;
-    bottom: 0;
+    right: 5%;
+    bottom: 15%;
     position: absolute;
 }
 
@@ -133,6 +145,8 @@ article {
 }
 
 .thumbnail .text-part__title {
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
 }
@@ -168,6 +182,14 @@ article {
     color: #ffe2bd;
 }
 
+.footer__container-shadowed a:hover {
+    color: #a28168;
+}
+
 .footer__nav-links-container {
     margin-right: auto;
+}
+
+.footer__contact-info {
+    margin-right: 40px;
 }
