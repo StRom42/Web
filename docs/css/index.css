@@ -134,6 +134,15 @@ article {
     margin: 15px;
 }
 
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+body section:nth-child(even) {
+    background-color: #f3b96f;
+}
+
 .artists__row {
     display: flex;
     flex-flow: row;
@@ -181,6 +190,7 @@ article {
     padding: 15px;
     color: #ffe2bd !important;
     background-color: #6e5039;
+    box-shadow: 0px -5px 10px 3px #6e5039;
 }
 
 .footer__container a {
