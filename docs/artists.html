@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     <script src="./js/common.js"></script>
+    <script src="./js/meeting.js"></script>
 </head>
 <body>
     <header>
@@ -56,6 +57,34 @@
     </header>
     <main>
         <h1>Художники</h1>
+        <div class="form-container">
+            <form id="meeting-form">
+                <label for="meeting_theme">Тема консультации: </label>
+                <input type="text" id="meeting_theme" name="meeting_theme">
+                <label for="meet_date">Дата консультации: </label>
+                <input type="date" id="meet_date" name="meet_date">
+                <label type="meet_time">Время консультации: </label>
+                <input type="time" id="meet_time" name="meet_time">
+                <input type="submit" value="Записаться">
+            </form>
+        </div>
+        <div>
+            <h3>История записей</h3>
+            <div class="meeting-container" id="meeting-container">
+                <div class="meeting-row margined">
+                    <div class="margined">
+                        <span><b>Тема консультации</b></span>
+                    </div>
+                    <div class="margined">
+                        <span><b>Дата консультации</b></span>
+                    </div>
+                    <div class="margined">
+                        <span><b>Время консультации</b></span>
+                    </div>
+                </div>
+                <!-- paste meeting history -->
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer__container container">

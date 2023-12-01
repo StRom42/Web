@@ -42,6 +42,17 @@ a:hover {
     margin-right: 15px;
 }
 
+[class*='row'] {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.margined {
+    margin: 15px;
+}
+
 .header-fixed {
     top: 0;
     position: fixed !important;
