@@ -54,6 +54,7 @@ a:hover {
 }
 
 .header-fixed {
+    z-index: 1;
     top: 0;
     position: fixed !important;
     width: 100%;
@@ -124,10 +125,10 @@ a:hover {
 }
 
 #slogan {
-    background-image: url("../data/images/main/main-background.jpg");
-    background-repeat: no-repeat;
+    /* background-image: url("../data/images/main/main-background.jpg"); */
+    /* background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     width: 100%;
     height: 90vh;
     float: left;
