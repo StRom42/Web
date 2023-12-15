@@ -223,3 +223,15 @@ body section:nth-child(even) {
 .footer__contact-info {
     margin-right: 40px;
 }
+
+.catalog__container {
+
+}
+
+.hidden {
+    display: none !important;
+}
+
+.quarter-col {
+    width: 25%;
+}
